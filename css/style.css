@@ -54,6 +54,9 @@ header ul li a:hover{
 	position: absolute;
 	display: none;
  }
+ .active{
+	color: #729ea3;
+ }
 .banner{
 	height: 57vh;
 	background-image: url(../img/shirt-mockup-concept-with-plain-clothing.jpg);
@@ -261,14 +264,14 @@ section h6{
 	header ul{
 		position: absolute;
 		top: 100%;
-		right: -100%;
-		background-color: #fff;
+		left: -100%;
+		background-color: #729ea3;
 		width: 30rem;
 		height: 100vh;
 		transition: 0.3s;
 	}
 	header ul .active{
-		right: 0;
+		left: 0;
 
 	}
 	header ul li{
